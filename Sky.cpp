@@ -16,14 +16,14 @@ Sky::Sky (int s_X, int s_Y)
 }
 
 Sky::~Sky ()
-{                                          //删除动态申请的内存
-    delete[]star1;
-    delete[]star2;
-    delete[]star3;
-    delete[]star4;
-    delete moon1;
-    delete meteor1;
-    delete meteor2;
+{         
+    delete meteor4;                         //删除动态申请的内存
     delete meteor3;
-    delete meteor4;
+    delete meteor2;
+    delete meteor1;
+    delete moon1;
+    delete[]star4;
+    delete[]star3;
+    delete[]star2;
+    delete[]star1;
 }
