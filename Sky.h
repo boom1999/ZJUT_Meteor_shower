@@ -3,7 +3,7 @@
 #include"Star.h"
 #include"Meteor.h"
 #define MAXSHAPE 66                                //最大形状数，用于输出星星
-#define MAXMETEOR 10                               //最大形状数，用于输出流星
+//#define MAXMETEOR 10                             //最大形状数，用于输出流星
 
 class Sky                                          //组合类Sky包含三个由Shape共有派生出的类
 {
