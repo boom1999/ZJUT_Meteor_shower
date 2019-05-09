@@ -49,5 +49,6 @@ int main ()
     }
     EndBatchDraw ();                                    //刷新结束批量绘图
     closegraph ();                                      //结束绘图
+    cout << "THANKS" << endl;
     return 0;
 }
